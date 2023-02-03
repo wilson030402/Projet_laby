@@ -123,7 +123,7 @@ int main (void) {
 	
 
 	char labyrinthNom[50];
-	connectToServer("172.105.76.204",1234,"Wilson");
+	connectToServer("172.105.76.204",1234,"Yeogeuch");
 	waitForLabyrinth("TRAINING DONTMOVE timeout=1000 display=debug margin=0 start=1 seed=0xecba1d  ",labyrinthNom,&(taille->sizeX),&(taille->sizeY));;
 	
 	//seed=0x000002
